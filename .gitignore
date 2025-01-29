@@ -1,0 +1,39 @@
+# Python 相關暫存與編譯文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 虛擬環境（避免提交本機的 venv）
+.venv/
+env/
+venv/
+
+# 本地環境設定（如 dotenv 配置）
+.env
+*.env
+
+# AWS / GCP / 其他雲端服務憑證
+config/google_sheet_token.json
+Yumin_TT_Robot_accessKeys.csv
+Yumin_TT_Robot_credentials.csv
+
+# 🛑 依賴安裝需求
+requirements_local.txt  # 本機開發需求，不需提交
+
+# 🛑 IDE 設定（VSCode / PyCharm）
+.vscode/
+.idea/
+
+# 🔹 忽略 AWS Lambda 可能產生的暫存檔案
+/tmp/
+.aws-sam/
+node_modules/
+
+# 🔹 忽略 Lambda ZIP 打包檔案
+lambda_main.zip
+lambda_update.zip
+
+# 🔹 忽略 lambda_update，等 lambda_main 測試沒問題後再解除忽略
+lambda_update/

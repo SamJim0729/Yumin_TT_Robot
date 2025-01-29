@@ -1,0 +1,28 @@
+# AWS 與雲端工具
+boto3==1.36.2
+botocore==1.36.2
+
+# Flask 相關
+Flask==3.0.3
+Flask-Session==0.8.0
+awsgi==0.0.11  # 用於將 Flask 整合到 Lambda
+
+# Google Sheets API 相關
+gspread==6.1.4
+google-auth==2.38.0
+
+# LINE Messaging API
+line-bot-sdk==3.13.0
+
+# LLM 整合
+langchain==0.3.15
+openai==1.60.0
+pydantic==2.10.5
+tenacity==8.5.0
+tiktoken==0.8.0
+
+# 其他必要工具
+requests==2.32.3
+
+# 其他工具與補充套件
+rich==13.9.2  # 日誌與格式化輸出
